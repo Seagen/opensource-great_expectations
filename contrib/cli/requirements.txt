@@ -6,3 +6,5 @@ mypy>=0.971          # Type checker
 pytest>=5.3.5        # Test framework
 twine==3.7.1         # Packaging
 wheel==0.37.1        # Packaging
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability

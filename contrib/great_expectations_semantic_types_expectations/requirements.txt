@@ -35,3 +35,4 @@ us
 user_agents
 yahoo_fin
 zipcodes
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability

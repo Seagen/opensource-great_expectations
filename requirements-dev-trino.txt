@@ -1,1 +1,2 @@
 trino>=0.310.0,<0.316.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability

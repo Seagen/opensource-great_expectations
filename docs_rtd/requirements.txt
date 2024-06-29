@@ -11,7 +11,7 @@ autoapi==2.0.1
 Babel==2.9.1
 backcall==0.2.0
 bleach==3.3.0
-certifi==2020.6.20
+certifi==2023.7.22
 cffi==1.14.1
 chardet==3.0.4
 click==7.1.2
@@ -21,7 +21,7 @@ docutils==0.16
 entrypoints==0.3
 gitdb==4.0.5
 GitPython==3.1.7
-idna==2.10
+idna==3.7
 imagesize==1.2.0
 importlib-metadata==1.7.0
 ipykernel==5.3.4
@@ -29,7 +29,7 @@ ipython==7.31.1
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 jedi==0.17.2
-Jinja2==2.11.3
+Jinja2==3.1.4
 jsonpatch==1.26
 jsonpointer==2.0
 jsonschema==3.2.0
@@ -41,7 +41,7 @@ mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.7
 notebook==6.4.1
-numpy==1.21.0
+numpy==1.22.2
 packaging==20.4
 pandas==1.0.5
 pandocfilters==1.4.2
@@ -53,7 +53,7 @@ prometheus-client==0.8.0
 prompt-toolkit==3.0.6
 ptyprocess==0.6.0
 pycparser==2.20
-Pygments==2.7.4
+Pygments==2.15.0
 pyparsing==2.4.7
 pyrsistent==0.16.0
 python-dateutil==2.8.1
@@ -61,15 +61,15 @@ pytz==2020.1
 PyYAML==5.4
 pyzmq==19.0.2
 regex==2020.7.14
-requests==2.25.1
+requests==2.32.2
 ruamel.yaml==0.16.10
 ruamel.yaml.clib==0.2.0
-scipy==1.5.2
+scipy==1.10.0rc1
 Send2Trash==1.5.0
 six==1.15.0
 smmap==3.0.4
 snowballstemmer==2.0.0
-Sphinx==2.4.4
+Sphinx==3.3.0
 sphinx-autoapi==1.4.0
 sphinx-gitstamp==0.3.1
 sphinx-rtd-theme==0.5.0
@@ -92,9 +92,10 @@ traitlets==4.3.3
 typed-ast==1.4.1
 tzlocal==2.1
 Unidecode==1.1.1
-urllib3==1.26.5
+urllib3==1.26.19
 wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 wrapt==1.12.1
 zipp==3.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.9-slim
+FROM --platform=linux/amd64 python:3.13.0b2-slim
 ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app

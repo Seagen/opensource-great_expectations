@@ -1,4 +1,4 @@
-FROM python:3.10.13
+FROM python:3.13.0b3
 
 RUN pip install linkchecker
 

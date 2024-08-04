@@ -1,4 +1,4 @@
-black==22.3.0        # Linting / code style
+black==24.3.0        # Linting / code style
 Click>=7.1.2         # CLI tooling
 cookiecutter==1.7.3  # Project templating
 isort==5.10.1        # Linting / code style
@@ -6,3 +6,6 @@ mypy>=0.971          # Type checker
 pytest>=5.3.5        # Test framework
 twine==3.7.1         # Packaging
 wheel==0.37.1        # Packaging
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
